@@ -76,7 +76,7 @@ header nav ul li a:hover {
 .skills h2 {
     font-size: 1.5rem;
 }
-.skills-list {
+.skill-list {
     display: flex;
     justify-content: space-around;
     gap: 20px;
@@ -84,13 +84,16 @@ header nav ul li a:hover {
 }
 .skill-item {
     padding: 20px;
-    background-color: #4b4b4b;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     width: 25%;
+    color: #333;
 }
 
 /* Projects Section */
 .projects {
+    background-color: #4b4b4b;
+    color: white;
     padding: 50px 20px;
     text-align: center;
 }
@@ -105,10 +108,10 @@ header nav ul li a:hover {
 }
 .project-item {
     padding: 20px;
-    background-color: #4b4b4b;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     width: 25%;
-    color: white;
+    color: #333;
 }
 .project-item img {
     border-radius: 10px;
