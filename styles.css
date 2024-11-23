@@ -7,6 +7,9 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 header nav ul {
@@ -89,6 +92,9 @@ header nav ul li a:hover {
     width: 25%;
     color: #333;
 }
+.fa {
+    z-index: 1;
+}
 
 /* Projects Section */
 .projects {
@@ -115,4 +121,78 @@ header nav ul li a:hover {
 }
 .project-item img {
     border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* COntact Section */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap
+}
+.contact-info {
+    width: 45%;
+}
+.contact-item {
+    background-color: #4b4b4b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact-item a {
+    color: deepskyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-item a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.contact-form {
+    width: 45%;
+    background-color: #4b4b4b;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-form input, .contact-form textarea {
+    width:90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 1rem;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    color: deepskyblue;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
 }
